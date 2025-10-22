@@ -1,0 +1,80 @@
+/* FONT IMPORTS */
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope.ttf') format('truetype');
+}
+
+:root {
+  /* COLORS */
+
+  /* Primary Colors */
+  --color-very-dark-grayish-blue: #48556a;
+  --color-desaturated-dark-blue: #6d7f97;
+  --color-grayish-blue: #9eafc2;
+  --color-light-grayish-blue: #ecf2f8;
+
+  /* TYPOGRAPHY */
+
+  /* Font Family */
+  --font-family-primary: 'Manrope', sans-serif;
+
+  /* Font Sizes */
+  --font-size-heading: 20px;
+  --font-size-heading-rem: 1.25rem;
+  /* 20px / 16px */
+  --font-size-body: 13px;
+  --font-size-body-rem: 0.8125rem;
+  /* 13px / 16px */
+
+  /* Font Weights */
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* LAYOUT */
+
+  /* Breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+  --breakpoint-min-content: 320px;
+
+  /* Container */
+  --container-padding: 1rem;
+  --container-max-width: 1440px;
+
+  /* SPACING */
+
+  /* Common spacing values (you can adjust these based on design needs) */
+  --spacing-xs: 0.25rem;
+  /* 4px */
+  --spacing-sm: 0.5rem;
+  /* 8px */
+  --spacing-md: 1rem;
+  /* 16px */
+  --spacing-lg: 1.5rem;
+  /* 24px */
+  --spacing-xl: 2rem;
+  /* 32px */
+  --spacing-xxl: 3rem;
+  /* 48px */
+
+  /* BORDERS & RADIUS */
+
+  --border-radius-sm: 0.25rem;
+  /* 4px */
+  --border-radius-md: 0.5rem;
+  /* 8px */
+  --border-radius-lg: 1rem;
+  /* 16px */
+
+  /* SHADOWS */
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* TRANSITIONS */
+
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+}
