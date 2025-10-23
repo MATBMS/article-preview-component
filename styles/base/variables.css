@@ -8,10 +8,11 @@
   /* COLORS */
 
   /* Primary Colors */
-  --color-very-dark-grayish-blue: #48556a;
-  --color-desaturated-dark-blue: #6d7f97;
-  --color-grayish-blue: #9eafc2;
-  --color-light-grayish-blue: #ecf2f8;
+  --color-grey-900: #48556a;
+  --color-grey-500: #6E8098;
+  --color-grey-400: #9eafc2;
+  --color-grey-200: #ecf2f8;
+  --color-white: #fff;
 
   /* TYPOGRAPHY */
 
@@ -43,19 +44,26 @@
 
   /* SPACING */
 
-  /* Common spacing values (you can adjust these based on design needs) */
-  --spacing-xs: 0.25rem;
-  /* 4px */
-  --spacing-sm: 0.5rem;
-  /* 8px */
-  --spacing-md: 1rem;
-  /* 16px */
-  --spacing-lg: 1.5rem;
-  /* 24px */
-  --spacing-xl: 2rem;
-  /* 32px */
-  --spacing-xxl: 3rem;
-  /* 48px */
+  --spacing-0: 0px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-900: 72px;
+  --spacing-1000: 80px;
+  --spacing-1100: 88px;
+  --spacing-1200: 96px;
+  --spacing-1300: 104px;
+  --spacing-1400: 112px;
+  --spacing-1500: 120px;
+  --spacing-1600: 128px;
+  --spacing-1700: 136px;
+  --spacing-1800: 144px;
+  --spacing-1900: 152px;
+  --spacing-2000: 160px;
 
   /* BORDERS & RADIUS */
 

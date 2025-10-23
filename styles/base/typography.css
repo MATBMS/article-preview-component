@@ -1,15 +1,12 @@
 /* PRESET */
 .text-preset-1-bold {
-  color: var(--color-very-dark-grayish-blue);
-
-  /* Text Preset 1 (Bold) - Manrope - 20 px - 130% Line Height - 0.25% Line Spacing */
   font-family: var(--font-family-primary);
   font-size: var(--font-size-heading);
   font-style: normal;
   font-weight: var(--font-weight-bold);
   line-height: 130%;
-  /* 26px */
   letter-spacing: 0.25px;
+  color: var(--color-grey-900);
 }
 
 .text-preset-2-medium {
@@ -19,7 +16,7 @@
   font-weight: var(--font-weight-medium);
   line-height: 140%;
   letter-spacing: 0.016px;
-  color: var(--color-very-dark-grayish-blue);
+  color: var(--color-grey-500);
 }
 
 .text-preset-2-bold {
@@ -29,7 +26,7 @@
   font-weight: var(--font-weight-bold);
   line-height: 140%;
   letter-spacing: 0.016px;
-  color: var(--color-very-dark-grayish-blue);
+  color: var(--color-grey-900);
 }
 
 .text-preset-3 {
@@ -40,5 +37,5 @@
   line-height: 140%;
   letter-spacing: 3.25px;
   text-transform: uppercase;
-  color: var(--color-very-dark-grayish-blue);
+  color: var(--color-grey-900);
 }

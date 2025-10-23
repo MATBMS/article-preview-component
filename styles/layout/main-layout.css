@@ -1,3 +1,12 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-grey-200);
+}
+
 /* SMALL MOBILE (375px and up) */
 @media (min-width: 375px) {}
 
