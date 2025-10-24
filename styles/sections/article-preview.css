@@ -136,4 +136,35 @@
 }
 
 /* DESKTOP (1440px and up) */
-@media (min-width: 1440px) {}
+@media (min-width: 1440px) {
+
+  /* CARD */
+  .preview-card {
+    /* layout */
+    width: 730px;
+    height: 280px;
+    gap: var(--spacing-500);
+  }
+
+  /* IMAGE */
+  .card-img {
+    width: 285px;
+    height: 280px;
+  }
+
+  /* CONTENT */
+  .card-content {
+    width: 365px;
+  }
+
+  /* CONTENT TEXT */
+  .card-text {
+    width: 365px;
+  }
+
+  /* FOOTER */
+  .card-footer {
+    width: 365px;
+    gap: var(--spacing-2000);
+  }
+}
