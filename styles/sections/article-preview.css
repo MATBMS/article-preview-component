@@ -99,7 +99,41 @@
 @media (min-width: 375px) {}
 
 /* TABLET (768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+  /* CARD */
+  .preview-card {
+    /* layout */
+    width: 608px;
+    height: 346px;
+    flex-direction: row;
+  }
+
+  /* IMAGE */
+  .card-img {
+    width: 229px;
+    height: 346px;
+    flex-shrink: 0;
+    border-radius: 10px 0 0 10px;
+  }
+
+  /* CONTENT */
+  .card-content {
+    gap: var(--spacing-300);
+  }
+
+  /* CONTENT TEXT */
+  .card-text {
+    width: 311px;
+  }
+
+  /* FOOTER */
+  .card-footer {
+    width: 311px;
+    justify-content: stretch;
+    gap: var(--spacing-1300);
+  }
+}
 
 /* DESKTOP (1440px and up) */
 @media (min-width: 1440px) {}
