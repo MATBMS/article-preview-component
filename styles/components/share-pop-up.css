@@ -1,0 +1,68 @@
+/* CARD POP UP */
+.card-profile-share-pop-up {
+  /* layout */
+  display: flex;
+  width: 327px;
+  height: 76px;
+  padding: 16px 32px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  /* style */
+  border-radius: 0 0 10px 10px;
+  background: var(--color-grey-900);
+  /* position */
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.card-profile-share-pop-up-social-icons {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+
+/* SMALL MOBILE (375px and up) */
+@media (min-width: 375px) {}
+
+/* TABLET (768px and up) */
+@media (min-width: 768px) {
+  .card-profile-share-pop-up {
+    /* layout */
+    width: 248px;
+    height: 55px;
+    padding: 18px 38px;
+    gap: var(--spacing-300);
+    /* style */
+    border-radius: 10px;
+    /* position */
+    bottom: 105px;
+    left: 427px;
+  }
+
+  .card-profile-share-pop-up::after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid var(--color-grey-900);
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 1440px) {
+  .card-profile-share-pop-up {
+    /* position */
+    bottom: 95px;
+    left: 548px;
+  }
+}
