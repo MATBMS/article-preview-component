@@ -1,3 +1,13 @@
+/* utility on share pop up activation */
+
 .hide {
   display: none !important;
+}
+
+.btn-active {
+  background-color: #6E8098 !important;
+}
+
+.btn-active .card-profile-share-icon {
+  filter: brightness(0) invert(1);
 }

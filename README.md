@@ -16,3 +16,11 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 - HTML, CSS, JavaScript
 
 ## What I learned
+
+This is my first project incorporating JavaScript to manipulate DOM elements through class toggling. This fundamental technique opens the door to creating interactive user interfaces and dynamic content.
+
+Key takeaways:
+
+- DOM manipulation using `classList` methods
+- Event handling for user interactions
+- Toggling visual states through CSS classes
