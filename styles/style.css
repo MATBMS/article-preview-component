@@ -2,7 +2,6 @@
 @import url("./base/reset.css");
 @import url("./base/variables.css");
 @import url("./base/typography.css");
-@import url("./base/animation.css");
 
 /* Components */
 @import url("./components/share-pop-up.css");
@@ -12,3 +11,6 @@
 
 /* Sections */
 @import url("./sections/article-preview.css");
+
+/* Utilities - Must be last to override other styles */
+@import url("./utilities/display.css");
