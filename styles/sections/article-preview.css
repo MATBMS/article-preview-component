@@ -95,10 +95,6 @@
   flex-shrink: 0;
 }
 
-
-/* SMALL MOBILE (375px and up) */
-@media (min-width: 375px) {}
-
 /* TABLET (768px and up) */
 @media (min-width: 768px) {
 
