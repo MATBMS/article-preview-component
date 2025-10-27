@@ -18,7 +18,7 @@
 }
 
 .btn-active {
-  background-color: #6E8098;
+  background-color: var(--color-grey-500);
 }
 
 .btn-active .card-profile-share-icon {

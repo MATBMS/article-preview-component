@@ -35,6 +35,7 @@
 
   /* Breakpoints */
   --breakpoint-mobile: 375px;
+  --breakpoint-tablet: 768px;
   --breakpoint-desktop: 1440px;
   --breakpoint-min-content: 320px;
 
@@ -73,12 +74,69 @@
   /* 8px */
   --border-radius-lg: 1rem;
   /* 16px */
+  --border-radius-card: 10px;
+  --border-radius-full: 50%;
+
+  /* COMPONENT SIZES */
+
+  /* Card dimensions */
+  --card-width-mobile: 327px;
+  --card-height-mobile: 538px;
+  --card-width-tablet: 608px;
+  --card-height-tablet: 346px;
+  --card-width-desktop: 730px;
+  --card-height-desktop: 280px;
+
+  /* Image dimensions */
+  --card-img-height-mobile: 200px;
+  --card-img-width-tablet: 229px;
+  --card-img-height-tablet: 346px;
+  --card-img-width-desktop: 285px;
+  --card-img-height-desktop: 280px;
+
+  /* Content widths */
+  --card-content-width-mobile: 267px;
+  --card-content-width-tablet: 311px;
+  --card-content-width-desktop: 365px;
+
+  /* Profile elements */
+  --profile-img-size: 40px;
+  --profile-info-width: 114px;
+  --share-button-size: 32px;
+  --share-icon-width: 15px;
+  --share-icon-height: 12.971px;
+
+  /* Pop-up dimensions */
+  --popup-width-mobile: 327px;
+  --popup-height-mobile: 76px;
+  --popup-width-tablet: 248px;
+  --popup-height-tablet: 55px;
+  --popup-padding-mobile: 16px 32px;
+  --popup-padding-tablet: 18px 38px;
+  --popup-gap-mobile: 10px;
+
+  /* Arrow */
+  --arrow-size: 10px;
+
+  /* POSITIONING */
+
+  /* Pop-up positioning */
+  --popup-bottom-tablet: 105px;
+  --popup-left-tablet: 427px;
+  --popup-bottom-desktop: 95px;
+  --popup-left-desktop: 548px;
+
+  /* Z-INDEX */
+
+  --z-index-popup: 2;
+  --z-index-share-button: 3;
 
   /* SHADOWS */
 
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 40px 40px -10px rgba(201, 213, 225, 0.50);
 
   /* TRANSITIONS */
 
