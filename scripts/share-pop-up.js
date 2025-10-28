@@ -2,6 +2,10 @@
 const shareBtn = document.querySelector('.card-profile-share');
 const sharePopUp = document.querySelector('.card-profile-share-pop-up');
 
+if (!shareBtn || !sharePopUp) {
+  console.warn('Share component elements not found');
+}
+
 shareBtn.addEventListener('click', function () {
   shareBtn.classList.toggle('btn-active');
   sharePopUp.classList.toggle('hide');
